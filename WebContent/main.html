@@ -1,0 +1,51 @@
+<!-- 
+本專案為XAXB 猜數字遊戲 使用到html.css.javascript
+可以電腦出題 玩家猜題，也可以玩家出題 電腦AI猜題
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>無</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script type="text/javascript" src="javascript/main.js"> </script>
+ 
+</head>
+<body>
+<h1>猜數字遊戲</h1>
+
+<!--  玩家猜  -->
+
+<!-- 玩家開題目鈕 -->
+<input id="player" class="butt" type="button" value="玩家猜題" onclick="guess_ans()"> 輸入答案:
+<!-- 玩家輸入答案框 --> 
+<input id="playinput" type="text" class="butt">
+<!-- 玩家猜題提交 -->
+<input id="player" class="butt" type="button" value="猜題" onclick="play_geuss()">
+<br>
+<!-- 玩家開題 輸出框-->
+<span id="play_ans_show" style="width:6px;height:6px;font-size: 140%;"></span>
+<!-- 給玩家看得猜題結果-->
+<span id="play_geuss_result" style="width:6px;height:6px;font-size: 140%;"></span>
+<hr size="1px" align="center" width="100%">
+
+<!-- 電腦猜 -->
+
+<input id="compute" class="butt" type="button" value="電腦猜題" onclick="com_value()">
+<!-- 電腦猜的框-->
+<span id="com_geuss" style="width:6px;height:6px;font-size: 140%;">_ _ _ _</span>
+<!-- XA輸入 --> 
+<input id="XA_input" type="text" class="butt" value="0"> A
+<!-- XB輸入 --> 
+<input id="XB_input" type="text" class="butt" value="0"> B
+<!-- XAXB回答 -->
+<input id="AI_player" class="butt" type="button" value="答題" onclick="com_response()">
+<br>
+<!-- 電腦猜的結果-->
+<span id="com_geuss_result" style="width:6px;height:6px;font-size: 140%;"></span>
+
+
+<hr size="1px" align="center" width="100%">
+</body>
+</html>
