@@ -14,3 +14,21 @@
 玩家設題4碼答案，讓電腦 AI 猜，規則如第一種
 
 ![image](https://github.com/French-bulldog/web_XAXB_GAME/assets/75679879/5748f978-ecb2-4438-9737-e2f3ab2a7397)
+
+
+## 使用技術
+
+- HTML
+- CSS
+- javaScript
+
+
+## 如何遊玩
+
+1. 從[這裡](https://github.com/username/web_XAXB_GAME)下載程式碼
+2. 在瀏覽器中打開`main.html`文件
+3. 開始遊玩！
+
+## 開發者
+
+- [French-bulldog](https://github.com/French-bulldog)
